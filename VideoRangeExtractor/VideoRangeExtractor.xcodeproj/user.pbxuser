@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = CED0D00C1026B2CC006DF978 /* VideoRangeExtractor */;
+		activeTarget = 8DD76F960486AA7600D96B5E /* VideoRangeExtractor */;
+		addToTargets = (
+			8DD76F960486AA7600D96B5E /* VideoRangeExtractor */,
+		);
+		breakpoints = (
+			CED0D07F1026BA23006DF978 /* ApplicationMain.m:25 */,
+			CED0D0841026BA82006DF978 /* ILVideoRangeExtractor.m:70 */,
+		);
+		codeSenseManager = CED0D0141026B2F5006DF978 /* Code sense */;
+		executables = (
+			CED0D00C1026B2CC006DF978 /* VideoRangeExtractor */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1474,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1434,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 271240720;
+			PBXWorkspaceStateSaveDate = 271240720;
+		};
+		perUserProjectItems = {
+			CE7EBEF4102ACE1B00345813 /* PBXTextBookmark */ = CE7EBEF4102ACE1B00345813 /* PBXTextBookmark */;
+			CE7EBEF5102ACE1B00345813 /* PBXTextBookmark */ = CE7EBEF5102ACE1B00345813 /* PBXTextBookmark */;
+			CE7EBEF6102ACE1B00345813 /* PBXTextBookmark */ = CE7EBEF6102ACE1B00345813 /* PBXTextBookmark */;
+			CED0D0431026B9F1006DF978 /* PBXTextBookmark */ = CED0D0431026B9F1006DF978 /* PBXTextBookmark */;
+			CED0D0441026B9F1006DF978 /* PBXTextBookmark */ = CED0D0441026B9F1006DF978 /* PBXTextBookmark */;
+			CED0D0451026B9F1006DF978 /* PBXTextBookmark */ = CED0D0451026B9F1006DF978 /* PBXTextBookmark */;
+			CED0D0491026B9F1006DF978 /* PBXTextBookmark */ = CED0D0491026B9F1006DF978 /* PBXTextBookmark */;
+			CED0D04A1026B9F1006DF978 /* PBXTextBookmark */ = CED0D04A1026B9F1006DF978 /* PBXTextBookmark */;
+			CED0D04C1026B9F1006DF978 /* PBXTextBookmark */ = CED0D04C1026B9F1006DF978 /* PBXTextBookmark */;
+			CED0D04E1026B9F1006DF978 /* PBXTextBookmark */ = CED0D04E1026B9F1006DF978 /* PBXTextBookmark */;
+			CED0D0521026B9F1006DF978 /* PBXTextBookmark */ = CED0D0521026B9F1006DF978 /* PBXTextBookmark */;
+			CED0D0531026B9F1006DF978 /* PBXTextBookmark */ = CED0D0531026B9F1006DF978 /* PBXTextBookmark */;
+			CED0D0911026BB8B006DF978 /* PBXTextBookmark */ = CED0D0911026BB8B006DF978 /* PBXTextBookmark */;
+			CED0D0921026BB8B006DF978 /* PBXTextBookmark */ = CED0D0921026BB8B006DF978 /* PBXTextBookmark */;
+		};
+		sourceControlManager = CED0D0131026B2F5006DF978 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	08FB7796FE84155DC02AAC07 /* VideoRangeExtractor.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1652, 801}}";
+			sepNavSelRange = "{245, 0}";
+			sepNavVisRange = "{0, 246}";
+		};
+	};
+	32A70AAB03705E1F00C91783 /* VideoRangeExtractor_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1652, 801}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 180}";
+		};
+	};
+	8DD76F960486AA7600D96B5E /* VideoRangeExtractor */ = {
+		activeExec = 0;
+		executables = (
+			CED0D00C1026B2CC006DF978 /* VideoRangeExtractor */,
+		);
+	};
+	CE7EBEF4102ACE1B00345813 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CED0D0291026B3B7006DF978 /* ILVideoRangeExtractor.m */;
+		name = "ILVideoRangeExtractor.m: 27";
+		rLen = 0;
+		rLoc = 650;
+		rType = 0;
+		vrLen = 1498;
+		vrLoc = 901;
+	};
+	CE7EBEF5102ACE1B00345813 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CED0D0291026B3B7006DF978 /* ILVideoRangeExtractor.m */;
+		name = "ILVideoRangeExtractor.m: 27";
+		rLen = 0;
+		rLoc = 650;
+		rType = 0;
+		vrLen = 1498;
+		vrLoc = 901;
+	};
+	CE7EBEF6102ACE1B00345813 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CED0D01E1026B32E006DF978 /* ApplicationMain.m */;
+		name = "ApplicationMain.m: 25";
+		rLen = 112;
+		rLoc = 544;
+		rType = 0;
+		vrLen = 1351;
+		vrLoc = 48;
+	};
+	CED0D00C1026B2CC006DF978 /* VideoRangeExtractor */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			YES,
+			YES,
+			YES,
+			YES,
+			YES,
+			YES,
+			YES,
+			YES,
+			YES,
+			YES,
+		);
+		argumentStrings = (
+			"-input",
+			/Users/user/Desktop/test2.mov,
+			"-output",
+			/Users/user/Desktop/nicefag.mov,
+			"-flatten",
+			YES,
+			"-start",
+			0,
+			"-end",
+			1,
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = VideoRangeExtractor;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	CED0D0131026B2F5006DF978 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	CED0D0141026B2F5006DF978 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	CED0D01D1026B32E006DF978 /* ApplicationMain.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1652, 801}}";
+			sepNavSelRange = "{287, 0}";
+			sepNavVisRange = "{0, 293}";
+		};
+	};
+	CED0D01E1026B32E006DF978 /* ApplicationMain.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1652, 880}}";
+			sepNavSelRange = "{544, 112}";
+			sepNavVisRange = "{48, 1351}";
+		};
+	};
+	CED0D0281026B3B7006DF978 /* ILVideoRangeExtractor.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1652, 801}}";
+			sepNavSelRange = "{276, 21}";
+			sepNavVisRange = "{0, 857}";
+		};
+	};
+	CED0D0291026B3B7006DF978 /* ILVideoRangeExtractor.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1652, 1408}}";
+			sepNavSelRange = "{650, 0}";
+			sepNavVisRange = "{901, 1498}";
+		};
+	};
+	CED0D0431026B9F1006DF978 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* VideoRangeExtractor.m */;
+		name = "VideoRangeExtractor.m: 11";
+		rLen = 0;
+		rLoc = 245;
+		rType = 0;
+		vrLen = 246;
+		vrLoc = 0;
+	};
+	CED0D0441026B9F1006DF978 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32A70AAB03705E1F00C91783 /* VideoRangeExtractor_Prefix.pch */;
+		name = "VideoRangeExtractor_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 180;
+		vrLoc = 0;
+	};
+	CED0D0451026B9F1006DF978 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CED0D01D1026B32E006DF978 /* ApplicationMain.h */;
+		name = "ApplicationMain.h: 19";
+		rLen = 0;
+		rLoc = 287;
+		rType = 0;
+		vrLen = 293;
+		vrLoc = 0;
+	};
+	CED0D0491026B9F1006DF978 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* VideoRangeExtractor.m */;
+		name = "VideoRangeExtractor.m: 6";
+		rLen = 0;
+		rLoc = 210;
+		rType = 0;
+		vrLen = 181;
+		vrLoc = 0;
+	};
+	CED0D04A1026B9F1006DF978 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CED0D01D1026B32E006DF978 /* ApplicationMain.h */;
+		name = "ApplicatioMain.h: 16";
+		rLen = 0;
+		rLoc = 275;
+		rType = 0;
+		vrLen = 230;
+		vrLoc = 0;
+	};
+	CED0D04C1026B9F1006DF978 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CED0D01E1026B32E006DF978 /* ApplicationMain.m */;
+		name = "ApplicatioMain.m: 14";
+		rLen = 0;
+		rLoc = 1393;
+		rType = 0;
+		vrLen = 228;
+		vrLoc = 0;
+	};
+	CED0D04E1026B9F1006DF978 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32A70AAB03705E1F00C91783 /* VideoRangeExtractor_Prefix.pch */;
+		name = "VideoRangeExtractor_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 180;
+		vrLoc = 0;
+	};
+	CED0D0521026B9F1006DF978 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CED0D0281026B3B7006DF978 /* ILVideoRangeExtractor.h */;
+		name = "ILVideoRangeExtractor.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 232;
+		vrLoc = 0;
+	};
+	CED0D0531026B9F1006DF978 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CED0D0291026B3B7006DF978 /* ILVideoRangeExtractor.m */;
+		name = "ILVideoRangeExtractor.m: 36";
+		rLen = 0;
+		rLoc = 187;
+		rType = 0;
+		vrLen = 841;
+		vrLoc = 0;
+	};
+	CED0D07F1026BA23006DF978 /* ApplicationMain.m:25 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = CED0D01E1026B32E006DF978 /* ApplicationMain.m */;
+		functionName = "-run";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 25;
+		location = VideoRangeExtractor;
+		modificationTime = 270973539.420902;
+		state = 1;
+	};
+	CED0D0841026BA82006DF978 /* ILVideoRangeExtractor.m:70 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = CED0D0291026B3B7006DF978 /* ILVideoRangeExtractor.m */;
+		functionName = "-convert:";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 70;
+		location = VideoRangeExtractor;
+		modificationTime = 270973571.920657;
+		state = 1;
+	};
+	CED0D0911026BB8B006DF978 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CED0D01E1026B32E006DF978 /* ApplicationMain.m */;
+		name = "ApplicationMain.m: 25";
+		rLen = 0;
+		rLoc = 544;
+		rType = 0;
+		vrLen = 1351;
+		vrLoc = 48;
+	};
+	CED0D0921026BB8B006DF978 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CED0D0281026B3B7006DF978 /* ILVideoRangeExtractor.h */;
+		name = "ILVideoRangeExtractor.h: 15";
+		rLen = 21;
+		rLoc = 276;
+		rType = 0;
+		vrLen = 857;
+		vrLoc = 0;
+	};
+}

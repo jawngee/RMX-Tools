@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76F9A0486AA7600D96B5E /* SceneDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* SceneDetector.m */; settings = {ATTRIBUTES = (); }; };
+		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
+		8DD76F9F0486AA7600D96B5E /* SceneDetector.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859EA3029092ED04C91782 /* SceneDetector.1 */; };
+		CE1CA8EB102C1B1E00002568 /* FrameDifferenceStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1CA8EA102C1B1E00002568 /* FrameDifferenceStrategy.m */; };
+		CE1CA95B102C377600002568 /* RGBDifferenceStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1CA95A102C377600002568 /* RGBDifferenceStrategy.m */; };
+		CE2BBED210213D1A00489A26 /* ILSceneDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2BBED110213D1A00489A26 /* ILSceneDetector.m */; };
+		CE2BBED510213D3100489A26 /* ILStdDevAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2BBED410213D3100489A26 /* ILStdDevAccumulator.m */; };
+		CE7974DA1021784600B6E00B /* SDXMLExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7974D91021784600B6E00B /* SDXMLExporter.m */; };
+		CE7975DF1021A63C00B6E00B /* SDVideoExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7975DE1021A63C00B6E00B /* SDVideoExporter.m */; };
+		FFAC51A21020542400DBB5AB /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFAC51A11020542400DBB5AB /* QTKit.framework */; };
+		FFAC51A41020542400DBB5AB /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFAC51A31020542400DBB5AB /* QuickTime.framework */; };
+		FFAC51B01020544300DBB5AB /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFAC51AF1020544300DBB5AB /* AppKit.framework */; };
+		FFAC51B71020546E00DBB5AB /* SDApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAC51B61020546E00DBB5AB /* SDApplication.m */; };
+		FFAC51BA1020551100DBB5AB /* ILFrameGrabber.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAC51B91020551100DBB5AB /* ILFrameGrabber.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CED2EC5B10241573009FD008 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CED2EC5710241573009FD008 /* RMX.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = RMX;
+		};
+		CED2EC63102415FC009FD008 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CED2EC5710241573009FD008 /* RMX.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = RMX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F9E0486AA7600D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76F9F0486AA7600D96B5E /* SceneDetector.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* SceneDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDetector.m; sourceTree = "<group>"; };
+		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32A70AAB03705E1F00C91783 /* SceneDetector_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDetector_Prefix.pch; sourceTree = "<group>"; };
+		8DD76FA10486AA7600D96B5E /* SceneDetector */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SceneDetector; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6859EA3029092ED04C91782 /* SceneDetector.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SceneDetector.1; sourceTree = "<group>"; };
+		CE1CA8E9102C1B1E00002568 /* FrameDifferenceStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameDifferenceStrategy.h; sourceTree = "<group>"; };
+		CE1CA8EA102C1B1E00002568 /* FrameDifferenceStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrameDifferenceStrategy.m; sourceTree = "<group>"; };
+		CE1CA8EC102C1B6D00002568 /* PixelDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PixelDefs.h; sourceTree = "<group>"; };
+		CE1CA8EF102C1C5E00002568 /* AbstractDetectionStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractDetectionStrategy.h; sourceTree = "<group>"; };
+		CE1CA959102C377600002568 /* RGBDifferenceStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGBDifferenceStrategy.h; sourceTree = "<group>"; };
+		CE1CA95A102C377600002568 /* RGBDifferenceStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGBDifferenceStrategy.m; sourceTree = "<group>"; };
+		CE2BBED010213D1A00489A26 /* ILSceneDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILSceneDetector.h; sourceTree = "<group>"; };
+		CE2BBED110213D1A00489A26 /* ILSceneDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILSceneDetector.m; sourceTree = "<group>"; };
+		CE2BBED310213D3100489A26 /* ILStdDevAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILStdDevAccumulator.h; sourceTree = "<group>"; };
+		CE2BBED410213D3100489A26 /* ILStdDevAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILStdDevAccumulator.m; sourceTree = "<group>"; };
+		CE2BBEE71021400D00489A26 /* ILSceneDetectorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILSceneDetectorDelegate.h; sourceTree = "<group>"; };
+		CE7974D31021777200B6E00B /* ILExporterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILExporterProtocol.h; sourceTree = "<group>"; };
+		CE7974D81021784600B6E00B /* SDXMLExporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDXMLExporter.h; sourceTree = "<group>"; };
+		CE7974D91021784600B6E00B /* SDXMLExporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDXMLExporter.m; sourceTree = "<group>"; };
+		CE7975DD1021A63C00B6E00B /* SDVideoExporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDVideoExporter.h; sourceTree = "<group>"; };
+		CE7975DE1021A63C00B6E00B /* SDVideoExporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDVideoExporter.m; sourceTree = "<group>"; };
+		CED2EC5710241573009FD008 /* RMX.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RMX.xcodeproj; path = ../../../Frameworks/RMX/RMX.xcodeproj; sourceTree = SOURCE_ROOT; };
+		FFAC51A11020542400DBB5AB /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
+		FFAC51A31020542400DBB5AB /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = System/Library/Frameworks/QuickTime.framework; sourceTree = SDKROOT; };
+		FFAC51AF1020544300DBB5AB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FFAC51B51020546E00DBB5AB /* SDApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDApplication.h; sourceTree = "<group>"; };
+		FFAC51B61020546E00DBB5AB /* SDApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDApplication.m; sourceTree = "<group>"; };
+		FFAC51B81020551100DBB5AB /* ILFrameGrabber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILFrameGrabber.h; sourceTree = "<group>"; };
+		FFAC51B91020551100DBB5AB /* ILFrameGrabber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILFrameGrabber.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F9B0486AA7600D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */,
+				FFAC51A21020542400DBB5AB /* QTKit.framework in Frameworks */,
+				FFAC51A41020542400DBB5AB /* QuickTime.framework in Frameworks */,
+				FFAC51B01020544300DBB5AB /* AppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* SceneDetector */ = {
+			isa = PBXGroup;
+			children = (
+				CED2EC5710241573009FD008 /* RMX.xcodeproj */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859EA2029092E104C91782 /* Documentation */,
+				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+				FFAC51A11020542400DBB5AB /* QTKit.framework */,
+				FFAC51A31020542400DBB5AB /* QuickTime.framework */,
+				FFAC51AF1020544300DBB5AB /* AppKit.framework */,
+			);
+			name = SceneDetector;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				FFAC51B41020545C00DBB5AB /* App */,
+				FFAC51B31020545000DBB5AB /* Classes */,
+				32A70AAB03705E1F00C91783 /* SceneDetector_Prefix.pch */,
+				08FB7796FE84155DC02AAC07 /* SceneDetector.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				08FB779EFE84155DC02AAC07 /* Foundation.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FA10486AA7600D96B5E /* SceneDetector */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6859EA2029092E104C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859EA3029092ED04C91782 /* SceneDetector.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+		CE1CA8E7102C1AE400002568 /* Strategies */ = {
+			isa = PBXGroup;
+			children = (
+				CE1CA8E9102C1B1E00002568 /* FrameDifferenceStrategy.h */,
+				CE1CA8EA102C1B1E00002568 /* FrameDifferenceStrategy.m */,
+				CE1CA8EC102C1B6D00002568 /* PixelDefs.h */,
+				CE1CA8EF102C1C5E00002568 /* AbstractDetectionStrategy.h */,
+				CE1CA959102C377600002568 /* RGBDifferenceStrategy.h */,
+				CE1CA95A102C377600002568 /* RGBDifferenceStrategy.m */,
+			);
+			name = Strategies;
+			sourceTree = "<group>";
+		};
+		CE2BC012102172C900489A26 /* Grabber */ = {
+			isa = PBXGroup;
+			children = (
+				FFAC51B81020551100DBB5AB /* ILFrameGrabber.h */,
+				FFAC51B91020551100DBB5AB /* ILFrameGrabber.m */,
+				CE2BBEE71021400D00489A26 /* ILSceneDetectorDelegate.h */,
+				CE2BBED010213D1A00489A26 /* ILSceneDetector.h */,
+				CE2BBED110213D1A00489A26 /* ILSceneDetector.m */,
+			);
+			name = Grabber;
+			sourceTree = "<group>";
+		};
+		CE2BC013102172D300489A26 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				CE2BBED310213D3100489A26 /* ILStdDevAccumulator.h */,
+				CE2BBED410213D3100489A26 /* ILStdDevAccumulator.m */,
+			);
+			name = Math;
+			sourceTree = "<group>";
+		};
+		CE2BC0141021730700489A26 /* Exporter */ = {
+			isa = PBXGroup;
+			children = (
+				CE7974D31021777200B6E00B /* ILExporterProtocol.h */,
+				CE7974D81021784600B6E00B /* SDXMLExporter.h */,
+				CE7974D91021784600B6E00B /* SDXMLExporter.m */,
+				CE7975DD1021A63C00B6E00B /* SDVideoExporter.h */,
+				CE7975DE1021A63C00B6E00B /* SDVideoExporter.m */,
+			);
+			name = Exporter;
+			sourceTree = "<group>";
+		};
+		CED2EC5810241573009FD008 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CED2EC5C10241573009FD008 /* RMX.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFAC51B31020545000DBB5AB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CE1CA8E7102C1AE400002568 /* Strategies */,
+				CE2BC0141021730700489A26 /* Exporter */,
+				CE2BC013102172D300489A26 /* Math */,
+				CE2BC012102172C900489A26 /* Grabber */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		FFAC51B41020545C00DBB5AB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FFAC51B51020546E00DBB5AB /* SDApplication.h */,
+				FFAC51B61020546E00DBB5AB /* SDApplication.m */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F960486AA7600D96B5E /* SceneDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "SceneDetector" */;
+			buildPhases = (
+				8DD76F990486AA7600D96B5E /* Sources */,
+				8DD76F9B0486AA7600D96B5E /* Frameworks */,
+				8DD76F9E0486AA7600D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CED2EC64102415FC009FD008 /* PBXTargetDependency */,
+			);
+			name = SceneDetector;
+			productInstallPath = "$(HOME)/bin";
+			productName = SceneDetector;
+			productReference = 8DD76FA10486AA7600D96B5E /* SceneDetector */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "SceneDetector" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* SceneDetector */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CED2EC5810241573009FD008 /* Products */;
+					ProjectRef = CED2EC5710241573009FD008 /* RMX.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8DD76F960486AA7600D96B5E /* SceneDetector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CED2EC5C10241573009FD008 /* RMX.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RMX.framework;
+			remoteRef = CED2EC5B10241573009FD008 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F990486AA7600D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F9A0486AA7600D96B5E /* SceneDetector.m in Sources */,
+				FFAC51B71020546E00DBB5AB /* SDApplication.m in Sources */,
+				FFAC51BA1020551100DBB5AB /* ILFrameGrabber.m in Sources */,
+				CE2BBED210213D1A00489A26 /* ILSceneDetector.m in Sources */,
+				CE2BBED510213D3100489A26 /* ILStdDevAccumulator.m in Sources */,
+				CE7974DA1021784600B6E00B /* SDXMLExporter.m in Sources */,
+				CE7975DF1021A63C00B6E00B /* SDVideoExporter.m in Sources */,
+				CE1CA8EB102C1B1E00002568 /* FrameDifferenceStrategy.m in Sources */,
+				CE1CA95B102C377600002568 /* RGBDifferenceStrategy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CED2EC64102415FC009FD008 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RMX;
+			targetProxy = CED2EC63102415FC009FD008 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB927508733DD40010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SceneDetector_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = SceneDetector;
+			};
+			name = Debug;
+		};
+		1DEB927608733DD40010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SceneDetector_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = SceneDetector;
+			};
+			name = Release;
+		};
+		1DEB927908733DD40010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB927A08733DD40010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "SceneDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB927508733DD40010E9CD /* Debug */,
+				1DEB927608733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "SceneDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB927908733DD40010E9CD /* Debug */,
+				1DEB927A08733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
